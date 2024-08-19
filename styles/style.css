@@ -260,10 +260,7 @@ button{
     white-space: nowrap;
     letter-spacing: normal;
 }
-.header__subnav-menu__desktop__sport{
-    
-    
-}
+
 .header__subnav-menu__desktop__sport--span{
     color: #041e42;
     height: 57px;
@@ -278,7 +275,7 @@ button{
     white-space: nowrap;
     letter-spacing: normal;
 }
-.
+
 .header__subnav-menu__desktop__live{
     display: inline-block;
 }
@@ -303,11 +300,12 @@ button{
 .header__subnav-menu__rubrics__desktop__menu--ul{
     position: absolute;
     width: max-content;
-    display: none;
+    visibility: hidden;
     z-index: 3;
     list-style-type: none;
     background-color: white;
-    left: 1000px;
+    top: 57px;
+    right: 100px;
 }
 .header__subnav-menu__rubrics__desktop--next{
     display: inline-block;
@@ -464,14 +462,18 @@ button{
 
 .carousel{
     background-color: #f0f3fd;
+    
 }
 .carousel__wrapper__container{
     padding: 0 110px 50px 100px;
+    
+    margin: 0 auto;
 }
 .carousel__wrapper__container__videos{
     display: flex;
     overflow: hidden;
     position: relative;
+    max-width: 1242px;
 }
 .carousel__wrapper__container__videos__article{
     display: inline;
@@ -537,6 +539,7 @@ button{
     margin: 0 auto;
     padding: 32px 16px 24px;
     max-width: 1216px;
+    display: grid;
 }
 .footer-container__contact{
     margin-bottom: 22px;
@@ -669,4 +672,18 @@ button{
 }
 .footer-container__subfooter--dot{
     margin: 0px 7px;
+}
+
+.footer-container__ct-logos--logo{
+    flex: 0 1 30%;
+    display: none;
+}
+.footer-container__ct-logos--ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 20px;
+}
+.footer-container__social-sites--follow-us{
+    display: none;
 }

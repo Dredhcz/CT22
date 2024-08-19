@@ -38,7 +38,7 @@ menuButton.addEventListener("click", function () {
             counter = 0;
         }
         if (counterMenu == 1) {
-            desktopMenu.style.display = "none";
+            desktopMenu.style.visibility = "hidden";
             counterMenu = 0;
         }
         TVmenu.style.display = "block";
@@ -51,7 +51,7 @@ menuButton.addEventListener("click", function () {
 });
 nextButton.addEventListener("click", function () {
     if (counterMenu == 0) {
-        desktopMenu.style.display = "block";
+        desktopMenu.style.visibility = "visible";
         if (counterTV == 1) {
             TVmenu.style.display = "none";
             counterTV = 0;
@@ -59,7 +59,7 @@ nextButton.addEventListener("click", function () {
         counterMenu = 1;
     }
     else {
-        desktopMenu.style.display = "none";
+        desktopMenu.style.visibility = "hidden";
         counterMenu = 0;
     }
 });
@@ -96,17 +96,16 @@ btnLeft.addEventListener('click', scrollLeft);
 window.addEventListener('resize', function () {
     var allSubnavMenu = submenu.scrollWidth + rightButtons.scrollWidth;
     var allwindowMenu = bannerImage.clientWidth - submenu.scrollWidth - rightButtons.scrollWidth;
-    console.log(allSubnavMenu);
-    console.log(bannerImage.clientWidth);
+    console.log(windowMenu.children[0].children[0].offsetWidth);
+    console.log(allwindowMenu);
     if (allSubnavMenu == bannerImage.clientWidth) {
-        submenu.children[submenu.children.length - 3].classList.add("header__rubrics-menu__desktop__menu--element");
-        submenu.children[submenu.children.length - 3].classList.remove("header__rubrics-menu__desktop--element");
-        windowMenu.insertBefore(submenu.children[submenu.children.length - 3], windowMenu.children[0]);
-        //menu posunout left - element.width
+        submenu.children[submenu.children.length - 2].classList.add("header__rubrics-menu__desktop__menu--element");
+        submenu.children[submenu.children.length - 2].classList.remove("header__rubrics-menu__desktop--element");
+        windowMenu.insertBefore(submenu.children[submenu.children.length - 2], windowMenu.children[0]);
     }
-    else if (windowMenu.children[0].children[0].offsetWidth == allwindowMenu) {
+    else if (windowMenu.children[0].children[0].offsetWidth <= allwindowMenu) {
         windowMenu.children[0].classList.remove("header__rubrics-menu__desktop__menu--element");
         windowMenu.children[0].classList.add("header__rubrics-menu__desktop--element");
-        submenu.insertBefore(windowMenu.children[0], submenu.children[submenu.children.length - 3]);
+        submenu.insertBefore(windowMenu.children[0], submenu.children[submenu.children.length - 2]);
     }
 });
