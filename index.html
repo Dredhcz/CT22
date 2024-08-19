@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/queries.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav-menu">
+            <span class="header__nav-menu--ct">ČT</span>
+            <button class="header__nav-menu--menu-button"><svg class="header__nav-menu--menu-button--svg" aria-hidden="true" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M19 17a2 2 0 110 4 2 2 0 010-4zm-7 0a2 2 0 110 4 2 2 0 010-4zm-7 0a2 2 0 110 4 2 2 0 010-4zm14-7a2 2 0 110 4 2 2 0 010-4zm-7 0a2 2 0 110 4 2 2 0 010-4zm-7 0a2 2 0 110 4 2 2 0 010-4zm14-7a2 2 0 110 4 2 2 0 010-4zm-7 0a2 2 0 110 4 2 2 0 010-4zM5 3a2 2 0 110 4 2 2 0 010-4z" fill="white" fill-rule="evenodd"></path></svg></button>
+            <button class="header__nav-menu--magnifying-glass"><svg class="header__nav-menu--magnifying-glass--svg" aria-hidden="true" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M9.5 2a7.5 7.5 0 015.83 12.22c.404-.066.83.034 1.17.302l.115.102 4.43 4.3a1.5 1.5 0 01-1.974 2.254l-.116-.102-4.43-4.3a1.498 1.498 0 01-.43-1.348A7.5 7.5 0 119.5 2zm0 1.8a5.7 5.7 0 100 11.4 5.7 5.7 0 000-11.4z" fill="white" fill-rule="evenodd"></path></svg></button>
+                            <input class="header__nav-menu--input" placeholder="Hledat..." type="text">
+
+                <button><img class="header__nav-menu--logo" aria-hidden="true" alt="logo čt 24" class="ctg-header__global-menu-logo" src="https://ctfs.ceskatelevize.cz/static/channels/ct24_onDark.svg"></button>
+            
+            <div class="header__nav-menu__tv-menu">
+                <div class="header__nav-menu__tv-menu__logos-container">
+                    <ul class="header__nav-menu__tv-menu__ul">
+                        
+                        <li class="header__nav-menu__tv-menu__ul--element"><button><img class="header__nav-menu__tv-menu__ul--image" alt="Česká televize" src="https://ctfs.ceskatelevize.cz/static/channels/Ceska_televize_logo.svg"></button></li>
+                        <div class="header__nav-menu__tv-menu__ul--container">
+                            <li class="header__nav-menu__tv-menu__ul--down-element"><button><img class="header__nav-menu__tv-menu__ul--down-element--image" alt="iVysílání" src="https://ctfs.ceskatelevize.cz/static/channels/ivysilani.svg"></button></li>
+                            <li class="header__nav-menu__tv-menu__ul--down-element"><button><img class="header__nav-menu__tv-menu__ul--down-element--image" alt="ČT24" src="https://ctfs.ceskatelevize.cz/static/channels/ct24.svg"></button></li>
+                            <li class="header__nav-menu__tv-menu__ul--down-element"><button><img class="header__nav-menu__tv-menu__ul--down-element--image" alt="ČT Déčko" src="https://ctfs.ceskatelevize.cz/static/channels/ctd.svg"></button></li>
+                            <li class="header__nav-menu__tv-menu__ul--down-element"><button><img class="header__nav-menu__tv-menu__ul--down-element--image" alt="ČT Sport" src="https://ctfs.ceskatelevize.cz/static/channels/ctsport.svg"></button></li>
+                            <li class="header__nav-menu__tv-menu__ul--down-element"><button><img class="header__nav-menu__tv-menu__ul--down-element--image" alt="ČT art" src="https://ctfs.ceskatelevize.cz/static/channels/ctart.svg"></button></li>
+                            <li class="header__nav-menu__tv-menu__ul--down-element"><button><img class="header__nav-menu__tv-menu__ul--down-element--image" alt="ČT edu" src="https://ctfs.ceskatelevize.cz/static/channels/edu.svg"></button></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="header__nav-menu__tv-menu__live-and-program">
+                    <span class="header__nav-menu__tv-menu__live-and-program--live-span"><a class="header__nav-menu__tv-menu__live-and-program--live-link" href="#">Živé vysílání</a></span>
+                    <span class="header__nav-menu__tv-menu__live-and-program--program-span"><a class="header__nav-menu__tv-menu__live-and-program--program-link" href="#">TV program</a></span>
+                </div>
+                
+                <div class="header__nav-menu__tv-menu__list-of-links">
+                    <ul class="header__nav-menu__tv-menu__list-of-links--ul">
+                        <li class="header__nav-menu__tv-menu__list-of-links--ul--element"><a class="header__nav-menu__tv-menu__list-of-links--ul--link" href="#">Počasí</a></li>
+                        <li class="header__nav-menu__tv-menu__list-of-links--ul--element"><a class="header__nav-menu__tv-menu__list-of-links--ul--link" href="#">Teletext</a></li>
+                        <li class="header__nav-menu__tv-menu__list-of-links--ul--element"><a class="header__nav-menu__tv-menu__list-of-links--ul--link" href="#">E-shop</a></li>
+                        <li class="header__nav-menu__tv-menu__list-of-links--ul--element"><a class="header__nav-menu__tv-menu__list-of-links--ul--link" href="#">Vše o ČT</a></li>
+                        <li class="header__nav-menu__tv-menu__list-of-links--ul--element"><a class="header__nav-menu__tv-menu__list-of-links--ul--link" href="#">TV poplatky</a></li>
+                        <li class="header__nav-menu__tv-menu__list-of-links--ul--element"><a class="header__nav-menu__tv-menu__list-of-links--ul--link" href="#">Kontakty</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header__rubrics-menu">
+            <ul class="header__rubrics-menu--ul">
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Hlavní události</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Ukrajina</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Americké volby</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Domácí</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Svět</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Regiony</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Ekonomika</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Kultura</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Věda</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Počasí</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Média</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Podcasty</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Obrazem</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Archiv krátkých zpráv</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Komiks</a></li>
+                <li class="header__rubrics-menu--element"><a class="header__rubrics-menu--element-link" href="#">Britské volby</a></li>
+            </ul>
+        </div>
+        <div class="header__subnav-menu">
+            <div class="header__subnav-menu__rubrics">    
+                
+                <button class="header__subnav-menu--burger-button"><svg class="header__subnav-menu--burger-button" fill="none" height="24" viewBox="0 0 24 25" width="24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M20.4 16.5a.6.6 0 01.6.6v.8a.6.6 0 01-.6.6H3.6a.6.6 0 01-.6-.6v-.8a.6.6 0 01.6-.6h16.8zm0-5a.6.6 0 01.6.6v.8a.6.6 0 01-.6.6H3.6a.6.6 0 01-.6-.6v-.8a.6.6 0 01.6-.6h16.8zm0-5a.6.6 0 01.6.6v.8a.6.6 0 01-.6.6H3.6a.6.6 0 01-.6-.6v-.8a.6.6 0 01.6-.6h16.8z" fill="currentColor" fill-rule="evenodd"></path></svg></button>
+                <span class="header__subnav-menu__rubrics--span">Rubriky</span>
+            </div>
+            <div class="header__subnav-menu__rubrics__desktop">
+                <ul class="header__subnav-menu__rubrics__desktop--ul">
+                    <li class="header__rubrics-menu__desktop--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Hlavní události</a></li>
+                    <li class="header__rubrics-menu__desktop--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Ukrajina</a></li>
+                    <li class="header__rubrics-menu__desktop--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Americké volby</a></li>
+                    <li class="header__rubrics-menu__desktop--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Domácí</a></li>
+                    <li class="header__rubrics-menu__desktop--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Svět</a></li>
+                    <li class="header__rubrics-menu__desktop--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Regiony</a></li>
+                    <li class="header__rubrics-menu__desktop--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Ekonomika</a></li>
+                    <li class="header__rubrics-menu__desktop--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Kultura</a></li>
+                    <li class="header__rubrics-menu__desktop--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Věda</a></li>
+                    <li class="header__rubrics-menu__desktop--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Počasí</a></li>
+                    
+                        
+                   <button class="header__subnav-menu__rubrics__desktop--next">Další...</button>
+
+                    
+                </ul>
+<ul class="header__subnav-menu__rubrics__desktop__menu--ul">
+
+                    <li class="header__rubrics-menu__desktop__menu--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Média</a></li>
+                    <li class="header__rubrics-menu__desktop__menu--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Podcasty</a></li>
+                    <li class="header__rubrics-menu__desktop__menu--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Obrazem</a></li>
+                    <li class="header__rubrics-menu__desktop__menu--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Archiv krátkých zpráv</a></li>
+                    <li class="header__rubrics-menu__desktop__menu--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Komiks</a></li>
+                    <li class="header__rubrics-menu__desktop__menu--element"><a class="header__rubrics-menu__desktop--element-link" href="#">Britské volby</a></li>
+                </ul>
+               
+                </div>
+
+                <div class="header__subnav-menu--desktop__sport-and-live-wrapper">
+                <div class="header__subnav-menu__desktop__sport">
+                    <button><span class="header__subnav-menu__desktop__sport--span">Sport</span></button>
+                </div>
+               <div class="header__subnav-menu__desktop__live">
+                    <button class="header__subnav-menu__desktop--button">
+                        <svg class="header__subnav-menu__desktop--button--red-dot" fill="none" height="8" viewBox="0 0 8 8" width="8" xmlns="http://www.w3.org/2000/svg"><circle cx="4" cy="4" fill="red" r="4"></circle></svg>
+                        <span class="header__subnav-menu__desktop--bottun--live header__subnav-menu--bottun--live">ŽIVÉ&nbsp;VYSÍLÁNÍ</span>
+                    </button>
+                </div>
+                </div>
+                 
+            
+            <div class="header__subnav-menu__sport">
+                <button><span class="header__subnav-menu__sport--span">Sport</span></button>
+            </div>
+            <div class="header__subnav-menu__live">
+                <button class="header__subnav-menu--button">
+                    <svg class="header__subnav-menu--button--red-dot" fill="none" height="8" viewBox="0 0 8 8" width="8" xmlns="http://www.w3.org/2000/svg"><circle cx="4" cy="4" fill="red" r="4"></circle></svg>
+                    <span class="header__subnav-menu--bottun--live">ŽIVĚ</span>
+                </button>
+            </div>
+            
+        </div>
+        
+        
+    </header>
+    <main class="main">
+        <section class="main-banner">
+            <button><img class="main-banner--image" src="images/ct24-banner-desktop.webp" alt="Policie obvinila karlovarského radního Bursíka z ODS"><img class="main-banner--image-mobile" src="images/ct24-banner-mobile.webp" alt="Policie obvinila karlovarského radního Bursíka z ODS"></button>
+            <div class="main-banner__title">
+                <h3 class="main-banner__title--heading">Policie obvinila karlovarského radního Brunclíka z ODS</h3>
+            </div>
+        </section>
+        <section class="main-flex">
+
+        <section class="article-links">
+            <div class="article-links__article">
+                <a class="article-links__article__link" href="#">
+                    <img class="article-links__article__link--image" alt="Americké síly opouštějí Niger. O základny se zajímají Rusové" loading="lazy" aria-hidden="true" src="https://fs2-ct24.ceskatelevize.cz/image/MDE4NjYyNjE3OGYyOTVhNhaLWxUHdifTXthX-ciqtywQaMiyL1gnr1gCmXYr8hPdekpQ73BLoE1DjhtkqqtKLLLbo1BV5DbExaiw1Hm5xMnjwkkJsAvNF54wdVHOR5crBZO_S5SACJNNUUw1qKZfo7C0zG89IK6hQjouiVJgdROuFKQLqFs22-IxcEvUDf8lJMW4F-wOG0Tsc30cvdpQIQ.jpg?width=228" srcset="
+                                                https://fs2-ct24.ceskatelevize.cz/image/MDE4NjYyNjE3OGYyOTVhNhaLWxUHdifTXthX-ciqtywQaMiyL1gnr1gCmXYr8hPdekpQ73BLoE1DjhtkqqtKLLLbo1BV5DbExaiw1Hm5xMnjwkkJsAvNF54wdVHOR5crBZO_S5SACJNNUUw1qKZfo7C0zG89IK6hQjouiVJgdROuFKQLqFs22-IxcEvUDf8lJMW4F-wOG0Tsc30cvdpQIQ.jpg?width=360 360w,
+                                                https://fs2-ct24.ceskatelevize.cz/image/MDE4NjYyNjE3OGYyOTVhNhaLWxUHdifTXthX-ciqtywQaMiyL1gnr1gCmXYr8hPdekpQ73BLoE1DjhtkqqtKLLLbo1BV5DbExaiw1Hm5xMnjwkkJsAvNF54wdVHOR5crBZO_S5SACJNNUUw1qKZfo7C0zG89IK6hQjouiVJgdROuFKQLqFs22-IxcEvUDf8lJMW4F-wOG0Tsc30cvdpQIQ.jpg?width=480 480w,
+                                                https://fs2-ct24.ceskatelevize.cz/image/MDE4NjYyNjE3OGYyOTVhNhaLWxUHdifTXthX-ciqtywQaMiyL1gnr1gCmXYr8hPdekpQ73BLoE1DjhtkqqtKLLLbo1BV5DbExaiw1Hm5xMnjwkkJsAvNF54wdVHOR5crBZO_S5SACJNNUUw1qKZfo7C0zG89IK6hQjouiVJgdROuFKQLqFs22-IxcEvUDf8lJMW4F-wOG0Tsc30cvdpQIQ.jpg?width=600 600w,
+                                                " sizes="(min-width: 768px) 228px, (min-width: 576px) 144px, 108px" width="228" height="152">
+                    <div class="article-links__article__link__text">
+                        <h3 class="article-links__article__link__text--heading">Americké síly opouštějí Niger. O základny se zajímají Rusové</h3>
+                        <p class="article-links__article__link__text--text">Zdá se, že ani armáda není imunní vůči touze po all-inclusive dovolené. Zatímco se stahují, ruské síly otevírají táborový park s názvem 'Nikdy nevíš, kdy budeš potřebovat dovolenou v poušti!</p>
+                        <span class="article-links__article__link__text--author">ČT24, ket</span>
+                    </div>
+                </a>
+            </div>
+            <div class="article-links__article">
+                <a class="article-links__article__link" href="#">
+                    <img class="article-links__article__link--image" alt="Na jihu Španělska se šíří západonilská horečka" loading="lazy" aria-hidden="true" src="https://fs2-ct24.ceskatelevize.cz/image/ZTNkNDIxZDZlYTliMzJkM4biQhoDeP6NFEi13drxtWPcoVxs_UFAxs3cMv0EGNzIOMRJPdb1gSV1RVbW74-i5WY37tZS3VFs38nPjqBnBCzL7-5iVwp5dRd_JYG5GJCWZEJPtNXvxXNF8kMvMhtv4fV4UrRFcZOJZpcHapPVJwOYBk9DEtxBEWAvgQhcfVNbw7YD6BqCzeT6_XX5tJTFyQ.JPG?width=228" srcset="
+                                                https://fs2-ct24.ceskatelevize.cz/image/ZTNkNDIxZDZlYTliMzJkM4biQhoDeP6NFEi13drxtWPcoVxs_UFAxs3cMv0EGNzIOMRJPdb1gSV1RVbW74-i5WY37tZS3VFs38nPjqBnBCzL7-5iVwp5dRd_JYG5GJCWZEJPtNXvxXNF8kMvMhtv4fV4UrRFcZOJZpcHapPVJwOYBk9DEtxBEWAvgQhcfVNbw7YD6BqCzeT6_XX5tJTFyQ.JPG?width=360 360w,
+                                                https://fs2-ct24.ceskatelevize.cz/image/ZTNkNDIxZDZlYTliMzJkM4biQhoDeP6NFEi13drxtWPcoVxs_UFAxs3cMv0EGNzIOMRJPdb1gSV1RVbW74-i5WY37tZS3VFs38nPjqBnBCzL7-5iVwp5dRd_JYG5GJCWZEJPtNXvxXNF8kMvMhtv4fV4UrRFcZOJZpcHapPVJwOYBk9DEtxBEWAvgQhcfVNbw7YD6BqCzeT6_XX5tJTFyQ.JPG?width=480 480w,
+                                                https://fs2-ct24.ceskatelevize.cz/image/ZTNkNDIxZDZlYTliMzJkM4biQhoDeP6NFEi13drxtWPcoVxs_UFAxs3cMv0EGNzIOMRJPdb1gSV1RVbW74-i5WY37tZS3VFs38nPjqBnBCzL7-5iVwp5dRd_JYG5GJCWZEJPtNXvxXNF8kMvMhtv4fV4UrRFcZOJZpcHapPVJwOYBk9DEtxBEWAvgQhcfVNbw7YD6BqCzeT6_XX5tJTFyQ.JPG?width=600 600w,
+                                                " sizes="(min-width: 768px) 228px, (min-width: 576px) 144px, 108px" width="228" height="152">
+                    <div class="article-links__article__link__text">
+                        <h3 class="article-links__article__link__text--heading">Na jihu Španělska se šíří západonilská horečka</h3>
+                        <p class="article-links__article__link__text--text">Komáři se rozhodli pro vlastní letní festival. Vstupné je zdarma, ale po odchodu si odnesete jako suvenýr speciální bodnutí a vzpomínku na unikátní exotickou horečku</p>
+                        <span class="article-links__article__link__text--author">ČTK, kar</span>
+                    </div>
+                </a>
+            </div>
+            <div class="article-links__article">
+                <a class="article-links__article__link" href="#">
+                    <img class="article-links__article__link--image" alt="Turistů z ciziny ve druhém kvartálu přibylo, zůstávali déle" loading="lazy" aria-hidden="true" src="https://fs2-ct24.ceskatelevize.cz/image/YWI5Y2VhNjViYzE2OTQzMgG0lKt1_pwtHWb1u_2-qoJcSHdLHMOWV32fjU6I0A1I382RGm8FAKv1NhpesbE4N2QMKDI1PWbjCi07r-vUgrby4N1Wi_yMBnJH7Dmy-zffviAtKTlYTilC6wkj50DLTLw0Ypp7FVTB8tPwGifIal8I9ca6JzOXymR5v7zKIEZwm3404s3d0Xh0Nn1o7NAmRw.JPG?width=228" srcset="
+                    https://fs2-ct24.ceskatelevize.cz/image/YWI5Y2VhNjViYzE2OTQzMgG0lKt1_pwtHWb1u_2-qoJcSHdLHMOWV32fjU6I0A1I382RGm8FAKv1NhpesbE4N2QMKDI1PWbjCi07r-vUgrby4N1Wi_yMBnJH7Dmy-zffviAtKTlYTilC6wkj50DLTLw0Ypp7FVTB8tPwGifIal8I9ca6JzOXymR5v7zKIEZwm3404s3d0Xh0Nn1o7NAmRw.JPG?width=360 360w,
+                    https://fs2-ct24.ceskatelevize.cz/image/YWI5Y2VhNjViYzE2OTQzMgG0lKt1_pwtHWb1u_2-qoJcSHdLHMOWV32fjU6I0A1I382RGm8FAKv1NhpesbE4N2QMKDI1PWbjCi07r-vUgrby4N1Wi_yMBnJH7Dmy-zffviAtKTlYTilC6wkj50DLTLw0Ypp7FVTB8tPwGifIal8I9ca6JzOXymR5v7zKIEZwm3404s3d0Xh0Nn1o7NAmRw.JPG?width=480 480w,
+                    https://fs2-ct24.ceskatelevize.cz/image/YWI5Y2VhNjViYzE2OTQzMgG0lKt1_pwtHWb1u_2-qoJcSHdLHMOWV32fjU6I0A1I382RGm8FAKv1NhpesbE4N2QMKDI1PWbjCi07r-vUgrby4N1Wi_yMBnJH7Dmy-zffviAtKTlYTilC6wkj50DLTLw0Ypp7FVTB8tPwGifIal8I9ca6JzOXymR5v7zKIEZwm3404s3d0Xh0Nn1o7NAmRw.JPG?width=600 600w,
+                    " sizes="(min-width: 768px) 228px, (min-width: 576px) 144px, 108px" width="228" height="152">
+                    <div class="article-links__article__link__text">
+                        <h3 class="article-links__article__link__text--heading">Turistů z ciziny ve druhém kvartálu přibylo, zůstávali déle</h3>
+                        <p class="article-links__article__link__text--text">Praha hlásí rekordní počet návštěvníků! Přemýšlíme, zda je to kvůli krásám historického centra nebo proto, že každý hledá ten nejlepší úhel pro svou 473. selfie u Karlova mostu.</p>
+                        <span class="article-links__article__link__text--author">ČTK, den</span>
+                    </div>
+                </a>
+            </div>
+            <div class="article-links__article">
+                <a class="article-links__article__link" href="#">
+                    <img class="article-links__article__link--image" alt="Soud zrušil Počeradům výjimku na vypouštění rtuti" loading="lazy" aria-hidden="true" src="https://fs2-ct24.ceskatelevize.cz/image/YTZjNGVmOTk4ZjdkNjAzMWD0xvKrGN-iEkM5p9j0wWcZM0TrU_2iQxzTmGDuRc2o4tKm7lpuQCnGu-lFVHvEdRnlQSkUf9pVYjmRLVUS8GOTkhIKhDhGVGyE8sT0JdIfDDMOfKT46-bM19HJotJnJfNMEQ4QTWeGF48gytUJkGo0sDSSbsMnjjpS5XGRXcRnvQqWTFLHL0NFAQ6x3EAPjA.jpg?width=228" srcset="
+                                                https://fs2-ct24.ceskatelevize.cz/image/YTZjNGVmOTk4ZjdkNjAzMWD0xvKrGN-iEkM5p9j0wWcZM0TrU_2iQxzTmGDuRc2o4tKm7lpuQCnGu-lFVHvEdRnlQSkUf9pVYjmRLVUS8GOTkhIKhDhGVGyE8sT0JdIfDDMOfKT46-bM19HJotJnJfNMEQ4QTWeGF48gytUJkGo0sDSSbsMnjjpS5XGRXcRnvQqWTFLHL0NFAQ6x3EAPjA.jpg?width=360 360w,
+                                                https://fs2-ct24.ceskatelevize.cz/image/YTZjNGVmOTk4ZjdkNjAzMWD0xvKrGN-iEkM5p9j0wWcZM0TrU_2iQxzTmGDuRc2o4tKm7lpuQCnGu-lFVHvEdRnlQSkUf9pVYjmRLVUS8GOTkhIKhDhGVGyE8sT0JdIfDDMOfKT46-bM19HJotJnJfNMEQ4QTWeGF48gytUJkGo0sDSSbsMnjjpS5XGRXcRnvQqWTFLHL0NFAQ6x3EAPjA.jpg?width=480 480w,
+                                                https://fs2-ct24.ceskatelevize.cz/image/YTZjNGVmOTk4ZjdkNjAzMWD0xvKrGN-iEkM5p9j0wWcZM0TrU_2iQxzTmGDuRc2o4tKm7lpuQCnGu-lFVHvEdRnlQSkUf9pVYjmRLVUS8GOTkhIKhDhGVGyE8sT0JdIfDDMOfKT46-bM19HJotJnJfNMEQ4QTWeGF48gytUJkGo0sDSSbsMnjjpS5XGRXcRnvQqWTFLHL0NFAQ6x3EAPjA.jpg?width=600 600w,
+                                                " sizes="(min-width: 768px) 228px, (min-width: 576px) 144px, 108px" width="228" height="152">
+                    <div class="article-links__article__link__text">
+                        <h3 class="article-links__article__link__text--heading">Soud zrušil Počeradům výjimku na vypouštění rtuti</h3>
+                        <p class="article-links__article__link__text--text">Průmyslové odvětví ztrácí svůj prémiový kanál: 'Noc v chemické továrně'. Zdá se, že čistší vzduch je teď populárnější než kdy jindy!</p>
+                        <span class="article-links__article__link__text--author">ČTK, mvr</span>
+                    </div>
+                </a>
+            </div>
+            <div class="article-links__article">
+                <a class="article-links__article__link" href="#">
+                    <img class="article-links__article__link--image" alt="Automobilka BMW začala využívat humanoida" loading="lazy" aria-hidden="true" src="https://fs2-ct24.ceskatelevize.cz/image/NDk4NDI3ODMzM2E5YzhhYZbVplVYet2_fLrrZL0IGjfCdTpALSsSivwhOhNynkZo_m9ORDPTb4PVPhIkVcUjogNVngHPl2UYL3HDxCmjh_uReh-6-NtKyjQY82D1Kw_JG3xv5c0mfLZcQCsygwAJ9B8Y4TWwOrqwKjjxpABIsVJI4rGAgO1w7BmUn95lPRxj_SB0DCL4IBq2IB5swW6byw.jpg?width=228" srcset="
+                                                https://fs2-ct24.ceskatelevize.cz/image/NDk4NDI3ODMzM2E5YzhhYZbVplVYet2_fLrrZL0IGjfCdTpALSsSivwhOhNynkZo_m9ORDPTb4PVPhIkVcUjogNVngHPl2UYL3HDxCmjh_uReh-6-NtKyjQY82D1Kw_JG3xv5c0mfLZcQCsygwAJ9B8Y4TWwOrqwKjjxpABIsVJI4rGAgO1w7BmUn95lPRxj_SB0DCL4IBq2IB5swW6byw.jpg?width=360 360w,
+                                                https://fs2-ct24.ceskatelevize.cz/image/NDk4NDI3ODMzM2E5YzhhYZbVplVYet2_fLrrZL0IGjfCdTpALSsSivwhOhNynkZo_m9ORDPTb4PVPhIkVcUjogNVngHPl2UYL3HDxCmjh_uReh-6-NtKyjQY82D1Kw_JG3xv5c0mfLZcQCsygwAJ9B8Y4TWwOrqwKjjxpABIsVJI4rGAgO1w7BmUn95lPRxj_SB0DCL4IBq2IB5swW6byw.jpg?width=480 480w,
+                                                https://fs2-ct24.ceskatelevize.cz/image/NDk4NDI3ODMzM2E5YzhhYZbVplVYet2_fLrrZL0IGjfCdTpALSsSivwhOhNynkZo_m9ORDPTb4PVPhIkVcUjogNVngHPl2UYL3HDxCmjh_uReh-6-NtKyjQY82D1Kw_JG3xv5c0mfLZcQCsygwAJ9B8Y4TWwOrqwKjjxpABIsVJI4rGAgO1w7BmUn95lPRxj_SB0DCL4IBq2IB5swW6byw.jpg?width=600 600w,
+                                                " sizes="(min-width: 768px) 228px, (min-width: 576px) 144px, 108px" width="228" height="152">
+                    <div class="article-links__article__link__text">
+                        <h3 class="article-links__article__link__text--heading">Automobilka BMW začala využívat humanoida</h3>
+                        <p class="article-links__article__link__text--text">Vítejte v budoucnosti, kde roboti nejen že řídí auta, ale taky zvládají vaši ranní kávu! Jen nezapomeňte nastavit preferovanou sílu espresso před jízdou.</p>
+                        <span class="article-links__article__link__text--author">Tomáš Karlík</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="main__video-and-articles">
+             <section class="video">
+            <iframe class="video--video" width="560" height="315" src="https://www.youtube.com/embed/HKcGcu1elCY?si=3cCvF9vdQRAfzyU5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        </section>
+        <section class="short-news">
+            <div class="short-news__container">
+                <h2 class="short-news__container--heading">Krátké zprávy</h2>
+                <div class="short-news__container__news-scroll">
+
+                    <div class="short-news__container__news-scroll__news-item">
+                        <span class="short-news__container__news-scroll__news-item--time">10:51</span>
+                        <p class="short-news__container__news-scroll__news-item--text">Předsednictvo ANO se k hlasování o vyloučení chomutovského primátora Marka Hrabáče sejde v úterý odpoledne. Návrh podala krajská organizace.</p>
+                    </div>
+                    <div class="short-news__container__news-scroll__news-item short-news__container__news-scroll__news-item-background">
+                        <span class="short-news__container__news-scroll__news-item--time">10:50</span>
+                        <p class="short-news__container__news-scroll__news-item--text">Kolem poledne se v Čechách místy objeví silnější bouřky s přívalovým deštěm, které se přes Vysočinu přesunou odpoledne a večer na Moravu a Slezsko.</p>
+                    </div>
+                    <div class="short-news__container__news-scroll__news-item">
+                        <span class="short-news__container__news-scroll__news-item--time">10:42</span>
+                        <p class="short-news__container__news-scroll__news-item--text">Zemětřesení, jeho síla se předběžně uvádí 7,1 stupně, ve čtvrtek zasáhlo západní Japonsko. Úřady vyhlásily varování před vlnou tsunami pro několik oblastí kolem jihozápadních ostrovů Kjúšú a Šikoku, informovala japonská veřejnoprávní televize NHK. Žádné podrobnosti o případných škodách zatím nejsou k dispozici.</p>
+                    </div>
+                </div>
+                <div class="short-news__gradient"></div>
+            </div>
+        </section>
+        </section>
+       
+        </section>
+        
+        <section class="carousel">
+            <div class="carousel__wrapper">
+                <div class="carousel__wrapper__container">
+                    <h2 class="carousel__wrapper__container--title">Sledujte</h2>
+                    <button class="carousel__wrapper__container__videos--button-left">                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="32" fill="none" viewBox="0 0 16 9"><path fill="currentColor" fill-rule="evenodd" d="M.293.293A1 1 0 0 1 1.613.21l.094.083L8 6.585 14.293.293a1 1 0 0 1 1.32-.083l.094.083a1 1 0 0 1 .083 1.32l-.083.094-7 7a1 1 0 0 1-1.32.083l-.094-.083-7-7a1 1 0 0 1 0-1.414Z" clip-rule="evenodd"></path></svg>
+                    </button>
+                    <button class="carousel__wrapper__container__videos--button-right">                        
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="32" fill="none" viewBox="0 0 16 9"><path fill="currentColor" fill-rule="evenodd" d="M.293.293A1 1 0 0 1 1.613.21l.094.083L8 6.585 14.293.293a1 1 0 0 1 1.32-.083l.094.083a1 1 0 0 1 .083 1.32l-.083.094-7 7a1 1 0 0 1-1.32.083l-.094-.083-7-7a1 1 0 0 1 0-1.414Z" clip-rule="evenodd"></path></svg>
+                        </button>
+                    <div class="carousel__wrapper__container__videos">
+                        
+                        <div class="carousel__wrapper__container__videos__article">
+                            <button class="carousel__wrapper__container__videos__article__button">
+                                <img class="carousel__wrapper__container__videos__article__button--image" src="images/image1.png" alt="">
+                                <h3 class="carousel__wrapper__container__videos__article__button--heading">Tanky jedou do Prahy!! Hihihi</h3>
+                            </button>
+                        </div>
+                        <div class="carousel__wrapper__container__videos__article">
+                            <button class="carousel__wrapper__container__videos__article__button">
+                                <img class="carousel__wrapper__container__videos__article__button--image" src="images/image2.webp" alt="">
+                                <h3 class="carousel__wrapper__container__videos__article__button--heading">Kamera zachytila psy, jak zapálili kus gauče a všichni se z toho můžeme posrat</h3>
+                            </button>
+                        </div>
+                        <div class="carousel__wrapper__container__videos__article">
+                            <button class="carousel__wrapper__container__videos__article__button">
+                                <img class="carousel__wrapper__container__videos__article__button--image" src="images/image3.webp" alt="">
+                                <h3 class="carousel__wrapper__container__videos__article__button--heading">Začínají padat skály na Písecku, horolezci padají s nimi</h3>
+                            </button>
+                        </div>
+                        <div class="carousel__wrapper__container__videos__article">
+                            <button class="carousel__wrapper__container__videos__article__button">
+                                <img class="carousel__wrapper__container__videos__article__button--image" src="images/image3.webp" alt="">
+                                <h3 class="carousel__wrapper__container__videos__article__button--heading">huheheheh</h3>
+                            </button>
+                        </div>
+                        <div class="carousel__wrapper__container__videos__article">
+                            <button class="carousel__wrapper__container__videos__article__button">
+                                <img class="carousel__wrapper__container__videos__article__button--image" src="images/image3.webp" alt="">
+                                <h3 class="carousel__wrapper__container__videos__article__button--heading">huheheheh</h3>
+                            </button>
+                        </div>
+                        <div class="carousel__wrapper__container__videos__article">
+                            <button class="carousel__wrapper__container__videos__article__button">
+                                <img class="carousel__wrapper__container__videos__article__button--image" src="images/image3.webp" alt="">
+                                <h3 class="carousel__wrapper__container__videos__article__button--heading">huheheheh</h3>
+                            </button>
+                        </div>
+                        <div class="carousel__wrapper__container__videos__article">
+                            <button class="carousel__wrapper__container__videos__article__button">
+                                <img class="carousel__wrapper__container__videos__article__button--image" src="images/image3.webp" alt="">
+                                <h3 class="carousel__wrapper__container__videos__article__button--heading">huheheheh</h3>
+                            </button>
+                        </div>
+                        <div class="carousel__wrapper__container__videos__article">
+                            <button class="carousel__wrapper__container__videos__article__button">
+                                <img class="carousel__wrapper__container__videos__article__button--image" src="images/image3.webp" alt="">
+                                <h3 class="carousel__wrapper__container__videos__article__button--heading">huheheheh</h3>
+                            </button>
+                        </div>
+                        <div class="carousel__wrapper__container__videos__article">
+                            <button class="carousel__wrapper__container__videos__article__button">
+                                <img class="carousel__wrapper__container__videos__article__button--image" src="images/image3.webp" alt="">
+                                <h3 class="carousel__wrapper__container__videos__article__button--heading">huheheheh</h3>
+                            </button>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+
+
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <a class="footer-container--ct-logo-link" href="https://www.ceskatelevize.cz/" title="Úvodní stránka České televize"><img class="footer-container--ct-logo" alt="logo ČT" aria-hidden="true" src="https://ctfs.ceskatelevize.cz/static/channels/Ceska_televize_logo.svg"></a>
+              <div class="footer-container__contact">
+                <span class="footer-container__contact--audience-center">Divácké centrum</span>
+                <span class="footer-container__contact--oppening-hours">Každý všední den: 7:30-17:30 hodin</span>
+                <div class="footer-container__contact__phone">
+                    <img class="footer-container__contact--phone-image" alt="telefon" height="20" src="https://ctfs.ceskatelevize.cz/static/icons/phone.svg">
+                    <span class="footer-container__contact--phone-number">+420 261 136 113</span>
+                </div>
+                <div class="footer-container__contact__email">
+                    <img class="footer-container__contact--email-image" alt="dopis" height="20" src="https://ctfs.ceskatelevize.cz/static/icons/mail.svg">
+                    <span class="footer-container__contact--email">info@ceskatelevize.cz</span>
+                </div>
+              </div>
+            
+            <ul class="footer-container__link-list">
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Živé vysílání</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Vše o ČT</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">TV program</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Studio Brno</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Počasí</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Studio Ostrava</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">HbbTV aplikace</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Rada ČT</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Mobilní aplikace</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Reklama</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">TV poplatky</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Kariéra</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">E-shop</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Konkurzy</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Déčko pro rodiče</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Pro média</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Teletext</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Pro autory</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Časté dotazy</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Telexport</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Zveme Vás do kina</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Produkční služby</a></li>
+                <li class="footer-container__link-list--item"><a class="footer-container__link-list--item--link" href="#">Kontakty</a></li>
+            </ul>
+            <div class="footer-container__social-sites">
+                <a class="footer-container__social-sites--link" href="#">
+                    <img class="footer-container__social-sites--logo" alt="Instagram logo" src="https://ctfs.ceskatelevize.cz/static/icons/instagram.svg">
+                    <span class="footer-container__social-sites--title">Instagram</span>
+                </a>
+                <a class="footer-container__social-sites--link" href="#">
+                    <img class="footer-container__social-sites--logo" alt="Facebook logo" src="https://ctfs.ceskatelevize.cz/static/icons/facebook.svg">
+                    <span class="footer-container__social-sites--title">Facebook</span>
+                </a>
+                <a class="footer-container__social-sites--link" href="#">
+                    <img class="footer-container__social-sites--logo" alt="Youtube logo" src="https://ctfs.ceskatelevize.cz/static/icons/youtube.svg">
+                    <span class="footer-container__social-sites--title">Youtube</span>
+                </a>
+                <a class="footer-container__social-sites--link" href="#">
+                    <img class="footer-container__social-sites--logo" alt="X logo" src="https://ctfs.ceskatelevize.cz/static/icons/x.svg">
+                    <span class="footer-container__social-sites--title">(X) Twitter</span>
+                </a>
+                <a class="footer-container__social-sites--link" href="#">
+                    <img class="footer-container__social-sites--logo" alt="Threads logo" class="iconNoHover-0-2-27" src="https://ctfs.ceskatelevize.cz/static/icons/threads.svg">
+                    <span class="footer-container__social-sites--title">Threads</span>
+                </a>
+            </div>
+            <div class="footer-container__subfooter">
+                <span class="footer-container__subfooter--copyright">© Česká televize</span>
+                <div class="footer-container__subfooter-container">
+                    <a href="#" class="footer-container__subfooter--english-version">English version</a>
+                    <span class="footer-container__subfooter--dot">•</span>
+                    <a href="#" class="footer-container__subfooter--privacy">Ochrana soukromí</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

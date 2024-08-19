@@ -1,0 +1,113 @@
+@media only screen and (max-width: 570px){
+    .carousel__wrapper__container{
+        padding: 0 55px 25px 50px;
+    }
+    .carousel__wrapper__container__videos__article__button--image{
+        width: 242px;
+    }
+    .carousel__wrapper__container__videos--button-left{
+        transform: translatex(250%);
+    }
+    .carousel__wrapper__container__videos--button-right{
+        transform: translatex(-250%);
+    }
+}
+@media only screen and (max-width: 464px){
+    .carousel__wrapper__container{
+        padding: 0 18px 8px 16px;
+    }
+}
+@media only screen and (min-width: 800px){
+    .main-banner{
+        margin-top: 20px;
+    }
+    .main-banner--image{
+        display: block;
+    }
+    .main-banner--image-mobile{
+        display: none;
+    }
+    .main-banner__title--heading{
+        font-size: 32px;
+        line-height: 2.375rem;
+        padding: 1.5rem 2rem 2rem;
+    }
+    .main-banner__title{
+        width: 480px;
+        padding: 0;
+    }
+    .main-flex{
+        display: flex;
+        gap: 2rem;
+        max-width: 1248px;
+        margin: 0 auto;
+    }
+    .video--video{
+       position: relative;
+       padding: 0;
+       height: 100%;
+    }
+    .video{
+        padding: 0;
+        height: 200px;
+        width: 380px;
+    }
+    .main__video-and-articles{
+        display: block;
+    }
+    .article-links{
+        padding: 0;
+    }
+    .article-links__article__link--image{
+        width: 228px;
+        height: 150px;
+    }
+    .article-links__article__link__text--heading{
+        font-size: 1.3125rem;
+        line-height: 1.625rem;
+        margin-bottom: .5rem;
+    }
+    .short-news__container{
+        margin-left: 0;
+        margin-right: 0;
+        width: 380px;
+    }
+    .article-links__article__link__text--text{
+        display: block;
+    }
+    .footer-container__social-sites--title{
+        display: none;
+    }
+    .footer{
+        display: flex;
+    }
+    .header__subnav-menu--burger-button{
+        display: none;
+    }
+    .header__subnav-menu__rubrics--span{
+        display: none;
+    }
+    .header__subnav-menu__sport{
+        display: none;
+    }
+    .header__subnav-menu__live{
+        display: none;
+    }
+    .header__subnav-menu__rubrics{
+        display: none;
+    }
+    .header__subnav-menu__rubrics__desktop{
+        display: flex;
+    }
+    .header__subnav-menu--desktop__sport-and-live-wrapper{
+        display: flex;
+    }
+    .header__nav-menu--ct{
+        display: block;
+    }
+    .header__nav-menu--input{
+        display: block;
+    }
+    .footer-container__contact{
+    }
+}
